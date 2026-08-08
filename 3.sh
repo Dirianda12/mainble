@@ -5,5 +5,5 @@ sleep 60
 while true
 do
         echo "...19 ULO PITON..."
-        sleep 720
+        sleep 60
 done
